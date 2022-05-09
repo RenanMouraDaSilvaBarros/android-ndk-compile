@@ -13,7 +13,7 @@ NDK_PATH=/home/naner/Android/Sdk/ndk/24.0.8215888/
 TARGET=$TARGET2-android21 
 
 #compile file.cpp file
-$NDK_PATH/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -TARGET $FILE
+$NDK_PATH/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -target $TARGET $FILE
 
 #send to android
 adb push a.out /data/local/tmp

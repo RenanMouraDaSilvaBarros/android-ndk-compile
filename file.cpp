@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "programa em C++\n";
+    std::cout << "programa ok vou mostar aqui em C++\n";
     return 0;
 }
